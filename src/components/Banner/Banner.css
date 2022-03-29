@@ -1,0 +1,42 @@
+.hero-section {
+    background: gray;
+    background-image: url('https://www.thetradedesk.com/assets/global/RemoteWorking_ThumbnailImage.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    position: relative;
+}
+.hero-section::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    opacity: .4;
+    z-index: 1;
+}
+.z {
+    z-index: 555;
+}
+.hero-section h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    z-index: 5;
+}
+.hero-section p {
+    font-size: 18px;
+    padding-right: 40px;
+    color: rgb(47, 55, 56);
+}
+.hero-btn {
+    padding: 16px 35px;
+    font-size: 18px;
+    /* color: rgb(33, 37, 32); */
+    color: rgb(244, 248, 236);
+}
+.hero-btn:hover {
+    color: white;
+}
